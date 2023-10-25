@@ -1,1 +1,4 @@
-*.parquet filter=lfs diff=lfs merge=lfs -text
+*train_series.parquet filter=lfs diff=lfs merge=lfs -text
+*Zzzs_train.parquet filter=lfs diff=lfs merge=lfs -text
+*Zzzs_train_multi.parquet filter=lfs diff=lfs merge=lfs -text
+*feature_engineer_V1.parquet filter=lfs diff=lfs merge=lfs -text
